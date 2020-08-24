@@ -1,5 +1,5 @@
-component: ""
-short_name: ""
-long_name: ""
-authors: ""
-package: []
+component: "demo"
+short_name: "Fun2"
+long_name: "Function2"
+authors: "John Doe"
+package: [wallace]
