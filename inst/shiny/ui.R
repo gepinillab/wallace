@@ -217,6 +217,16 @@ tagList(
                                  .butResPj:hover {background-color: #830D03;
                                  color: white;}"))
           ),
+          conditionalPanel(
+            "input.tabs == 'demo'",
+            h4("Demo"),
+            radioButtons(
+              "demoSel", "Modules Available:",
+              choices = insert_modules_options("demo")
+            ),
+            tags$hr(),
+            insert_modules_ui("demo")
+          ),
           # SESSION CODE ####
           conditionalPanel(
             "input.tabs == 'rmd'",
