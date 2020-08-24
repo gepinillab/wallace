@@ -26,6 +26,7 @@ tagList(
     tabPanel("Model", value = 'model'),
     tabPanel("Visualize", value = 'vis'),
     tabPanel("Project", value = 'proj'),
+    tabPanel("Demo", value = 'demo'),
     tabPanel("Session Code", value = 'rmd')
   ),
   tags$div(
